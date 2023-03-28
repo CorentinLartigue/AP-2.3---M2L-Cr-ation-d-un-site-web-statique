@@ -1,7 +1,7 @@
     /* Définir les styles pour le corps de la page */
 body {
     margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Cambria   ;
     font-size: 16px;
     line-height: 1.5;
     background-color: #f5d77f; /* Couleur de fond rappelant la région Lorraine */
@@ -21,13 +21,18 @@ body {
   }
   
   #entete h1 {
+    position: absolute;
     margin: 0;
     font-size: 50px;
     text-transform: uppercase;
+    font-family: Montserrat;
     letter-spacing: 2px;
+    line-height: 140px;
+    margin-left: 400px;
   }
   
   #img1 {
+    position: relative;
     float:left;
     margin-left: 20px;
     max-width: 100%;
@@ -35,12 +40,28 @@ body {
   }
 
   #img2 {
+    position: relative;
     float:right;
     margin-right: 20px;
     max-width: 100%;
     border-radius: 10px 10px 10px 10px;
   }
 
+  #img3 {
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 20px;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+
+  }
+
+  #img4 {
+    position: absolute;
+    margin-left: -300px;
+    max-width: 100%;
+    border-radius: 10px 10px 10px 10px;
+  }
   
   /* Définir les styles pour la navigation */
   nav {
@@ -70,6 +91,8 @@ body {
     padding: 10px;
     color: #333;
     text-decoration: none;
+    font-family: Montserrat;
+    font-size: 25px;
   }
   
   nav a:hover {
@@ -92,8 +115,10 @@ body {
   }
 
   h2{
-    text-decoration: underline;
-  }
+    font-size: 25px;
+    font-weight: 600; 
+    text-transform: uppercase;
+ }
   
   article {
     flex: 2;
@@ -107,14 +132,17 @@ body {
   footer {
     background-color: #333;
     color: #fff;
-    padding: 5px;
+    padding: 20px;
     text-align: center;
     grid-row: 4;
     grid-column: span 2;
+    margin-top: 100px;
   }
-  
+
   footer p {
     margin: 0;
-    font-size: 20px;
+    color: white;
+    font-family: Montserrat;
+    font-size: 17px;
   }
-  
+    
