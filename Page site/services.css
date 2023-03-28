@@ -6,8 +6,13 @@ body {
       line-height: 1.5;
       background-color: #f5d77f; /* Couleur de fond rappelant la région Lorraine */
       display: grid;
+<<<<<<< HEAD
       grid-template-columns: 8fr;
       grid-template-rows: auto auto 4fr auto;
+=======
+      grid-template-columns: 3fr 5fr;
+      grid-template-rows: auto auto 4fr 1fr;
+>>>>>>> 328c6de49d9edd05cae3eab7793bc0c645bea179
     }
   
     /* Définir les styles pour l'en-tête */
@@ -15,7 +20,10 @@ body {
       background-color: #333;
       color: #fff;
       padding: 20px;
+<<<<<<< HEAD
       margin: 0;
+=======
+>>>>>>> 328c6de49d9edd05cae3eab7793bc0c645bea179
       grid-row: 1;
       grid-column: span 2;
       text-align: center;
@@ -47,7 +55,11 @@ body {
       background-color: #fff;
       border-bottom: 1px solid #ccc;
       grid-row: 2;
+<<<<<<< HEAD
       grid-column: span 2;      
+=======
+      grid-column: span 2;
+>>>>>>> 328c6de49d9edd05cae3eab7793bc0c645bea179
     }
 
     nav ul {
@@ -74,11 +86,16 @@ body {
 
     nav a:hover {
       background-color: #333;
+<<<<<<< HEAD
       color: #f5d77f;
+=======
+      color: #ffffff;
+>>>>>>> 328c6de49d9edd05cae3eab7793bc0c645bea179
       text-decoration: underline;
       transition: all 0.3s ease-in-out;
     }
 
+<<<<<<< HEAD
 
     /* Définir les styles pour le contenu principal */
     section {
@@ -91,6 +108,30 @@ body {
          
     /* Styles pour les titres de section et d'article */
     div {
+=======
+    /* Styles pour les liens */
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+            
+    a:hover {
+      color: #f5d77f;
+      text-decoration: underline;
+    }
+
+    /* Définir les styles pour le contenu principal */
+    section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+      grid-row: 3;
+      grid-column: span 2;
+    }
+         
+    /* Styles pour les titres de section et d'article */
+    section div {
+>>>>>>> 328c6de49d9edd05cae3eab7793bc0c645bea179
       font-size: 25px;
       font-weight: 600;
       margin-bottom: 20px;
@@ -102,7 +143,11 @@ body {
     div {
       font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: bold;
+<<<<<<< HEAD
       font-size: 25px;
+=======
+      font-size: 20px;
+>>>>>>> 328c6de49d9edd05cae3eab7793bc0c645bea179
       color: #1c2e4a;
       margin-top: 40px;
       margin-bottom: 20px;
@@ -145,3 +190,23 @@ body {
     }
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 328c6de49d9edd05cae3eab7793bc0c645bea179
