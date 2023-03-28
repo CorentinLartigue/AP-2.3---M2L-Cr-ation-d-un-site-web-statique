@@ -1,0 +1,149 @@
+/* Style pour le corps de la page */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f5d77f; /* Couleur de fond rappelant la région Lorraine */
+    display: grid;
+    grid-template-columns: 8fr ;
+    grid-template-rows: auto auto 1fr auto;
+}
+  
+  /* Style pour l'en-tête */
+  #entete {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    grid-row: 1;
+    grid-column: span 2;
+    text-align: center;
+  }
+  
+  #entete h1 {
+    margin: 0;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  #entete img {
+    float: left;
+    margin-left: 20px;
+    max-width: 100%;
+  }
+
+  /* Style pour l'image */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  /* Style pour la navigation */
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    grid-row: 2;
+    grid-column: span 2;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav a {
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #333;
+    color: #f5d77f;;
+    text-decoration: underline;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Style pour les liens */
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+          
+  a:hover {
+    color: #f5d77f;
+    text-decoration: underline;
+  }
+  
+  /* Style pour les titres de section et d'article */
+    h1 {
+    margin: 0;
+    font-size: 36px;
+    }
+    h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+
+    /* Définit le contenu principal */
+    section {
+      display: grid;
+      grid-template-columns: 2fr 3fr;
+      grid-gap: 40px;
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 40px;
+      grid-row: 4;
+      grid-column: span 2;
+      border: 1px solid #ccc;
+    }
+        
+    /* Style pour la table */
+    table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    }
+    
+    th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    }
+    
+    /* Style pour le pied de page */
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        grid-row: 4;
+        grid-column: span 2;
+        margin-top: 100px;
+    }
+  
+    footer p {
+        margin: 0;
+        color: white;
+    }
